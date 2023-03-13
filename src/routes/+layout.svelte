@@ -32,13 +32,10 @@
 				</ul>
 			</div>
 		</div>
-		<div class="navbar-center">
-			<a href="../Home" class="btn btn-ghost normal-case text-xl">Portfolio</a>
-		</div>
 	</div>
 </header>
 <slot />
-<footer class="footer p-10 bg-neutral text-neutral-content">
+<footer style="padding: 2rem;" class="footer p-10 bg-neutral text-neutral-content">
 	<div>
 		<svg
 			width="50"
