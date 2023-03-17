@@ -3,9 +3,9 @@
 	export let data;
 </script>
 
-<h1><b>Contact</b></h1>
+<h1 style="flex; text-align: center; font-size: 2rem;"><b>Contact</b></h1>
 <br />
-<p>
+<p style="display: flex; margin= auto; padding-top: 1.5rem;">
 	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis cumque molestias voluptates eos
 	illum voluptas, perferendis sapiente recusandae exercitationem repudiandae. Quisquam provident et
 	tempore vero fugiat totam delectus at culpa?
