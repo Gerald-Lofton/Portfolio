@@ -6,18 +6,18 @@
 <h1>
 	<span
 		class="bg-gradient-to-br from-blue-500 to-cyan-300 bg-clip-text text-transparent box-decoration-clone"
-		>Design.</span
+		>Design</span
 	>
 </h1>
 <h1>
 	<span
 		class="bg-gradient-to-br from-red-500 to-yellow-500 bg-clip-text text-transparent box-decoration-clone"
-		>Build.</span
+		>Build</span
 	>
 </h1>
 <h1>
 	<span
 		class="bg-gradient-to-br from-pink-500 to-violet-500 bg-clip-text text-transparent box-decoration-clone"
-		>Deploy.</span
+		>Deploy</span
 	>
 </h1>
