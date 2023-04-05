@@ -1,6 +1,4 @@
 <script>
-	import '@skeletonlabs/skeleton/themes/theme-crimson.css';
-	import { AppBar } from '@skeletonlabs/skeleton';
 </script>
 
 <h1>

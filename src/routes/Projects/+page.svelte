@@ -1,6 +1,4 @@
 <script>
-	import Layout from '../+layout.svelte';
-	import App from '../+app.svelte';
 </script>
 
 <h1 class="display grid, justify-items-center"><b>Projects</b></h1>

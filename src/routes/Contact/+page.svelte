@@ -1,6 +1,4 @@
 <script>
-	/** @type {import('./$types').PageData} */
-	export let data;
 </script>
 
 <h1 style="flex; text-align: center; font-size: 2rem;"><b>Contact</b></h1>
