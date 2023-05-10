@@ -1,15 +1,35 @@
-<h1 style="flex; text-align: center; font-size: 2rem;"><b>Homepage</b></h1>
-<br />
-<p>
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatem excepturi veritatis
-	officia sunt nemo expedita, dolores illum, nobis ab at perferendis blanditiis sit molestiae.
-	Placeat incidunt odit aperiam vel!
-</p>
-
-<br />
-
-<p>
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem modi hic molestias. Cupiditate
-	inventore a voluptates doloremque nulla magnam tempora veritatis libero quasi pariatur blanditiis
-	iusto, quis numquam vitae ducimus.
-</p>
+		<title>My Portfolio</title>
+	</head>
+	<body class="bg-gradient-to-r from-blue-500 to-black">
+		<header class="text-center">
+			<h1 class="text-white">My Portfolio</h1>
+			<nav class="flex justify-center items-center">
+				<a href="/">Home</a>
+				<a href="/about">About Me</a>
+				<a href="/projects">Projects</a>
+				<a href="/contact">Contact Me</a>
+			</nav>
+		</header>
+		<main class="p-20">
+			<h2 class="text-2xl text-white">Welcome to My Portfolio!</h2>
+			<p>
+				I'm a developer with a passion for building web applications. I'm proficient in a variety of
+				technologies, including Svelte, React, and Vue. I'm also an experienced designer and can
+				create beautiful and user-friendly interfaces.
+			</p>
+			<p>Here are some of my projects:</p>
+			<ul>
+				<li>
+					<a href="/projects/my-website">My Website</a>
+				</li>
+				<li>
+					<a href="/projects/a-blog-i-built">A Blog I Built</a>
+				</li>
+				<li>
+					<a href="/projects/a-web-app-i-built">A Web App I Built</a>
+				</li>
+			</ul>
+		</main>
+		<footer class="text-center text-sm text-gray-500">&copy; 2023 Me</footer>
+	</body>
+</html>
