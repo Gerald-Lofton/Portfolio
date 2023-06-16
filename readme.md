@@ -26,15 +26,6 @@ Please note that this project is still a work in progress. I'm actively working 
 - [ ] Integration with external APIs
 - [ ] Deployment to a live server
 
-## Getting Started
-
-To get started with this project, follow these steps:
-
-1. Clone this repository: `git clone https://github.com/your-username/repository.git`
-2. Install the necessary dependencies: `npm install`
-3. Run the development server: `npm run dev`
-4. Open your browser and navigate to [http://localhost:5000](http://localhost:5000)
-
 ## Contribution
 
 I appreciate any contributions to this project. If you have any ideas, suggestions, or bug reports, please feel free to open an issue or submit a pull request.
