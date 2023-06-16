@@ -1,13 +1,46 @@
-### Hi there!!!👋
+# Gerald's Portfolio
+
+Hi there! 👋
+
+Welcome to my repository! Here, you'll find my portfolio project where I'm currently learning and utilizing Svelte and SvelteKit, powered by Vite. I'm excited to share my progress and showcase my skills through this project.
 
 <br>
 
-My name is Gerald and this is a Repository that contains my portfolio that I am currently trying to learn Svelte and SvelteKit and going to be utilizing it on this project. &nbsp;![Svelte Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/18px-Svelte_Logo.svg.png)
+![Svelte Image](https://blog.jakoblind.no/static/7a0fd917ee1f461e91a423558700762f/86389/svelte-logo.png)
 
-<br>
+## 🚧 Work in Progress 🚧
 
----
+Please note that this project is still a work in progress. I'm actively working on improving and adding new features. Feel free to explore the codebase, provide feedback, or suggest any improvements.
 
-<br>
+## Technologies Used
 
-_🔥🔥🔥Currently a work in progress 🔥🔥🔥_
+- Svelte
+- SvelteKit
+- Vite
+
+## Features
+
+- [x] Layout
+- [ ] Responsive design
+- [ ] Interactive user interface
+- [ ] Integration with external APIs
+- [ ] Deployment to a live server
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone this repository: `git clone https://github.com/your-username/repository.git`
+2. Install the necessary dependencies: `npm install`
+3. Run the development server: `npm run dev`
+4. Open your browser and navigate to [http://localhost:5000](http://localhost:5000)
+
+## Contribution
+
+I appreciate any contributions to this project. If you have any ideas, suggestions, or bug reports, please feel free to open an issue or submit a pull request.
+
+## Contact
+
+If you have any questions or just want to connect, you can reach me at [your-email@example.com](mailto:your-email@example.com).
+
+Thank you for visiting my portfolio repository! I hope you enjoy exploring it as much as I enjoyed building it. 😊
