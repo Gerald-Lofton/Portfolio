@@ -1,60 +1,107 @@
+<!-- Layout.svelte -->
+
 <script>
+  export let title;
 </script>
 
-<header>
-	<h1>My Portfolio</h1>
-	<nav>
-		<a href="/Home">Home</a>
-		<a href="/Projects">Projects</a>
-		<a href="/Contact">Contact Me</a>
-	</nav>
-</header>
 <main>
-	<h2>Welcome to My Portfolio!</h2>
-	<p>
-		I'm a developer with a passion for building web applications. I'm proficient in a variety of
-		technologies, including Svelte, React, and Vue. I'm also an experienced designer and can create
-		beautiful and user-friendly interfaces.
-	</p>
-	<p>Here are some of my projects:</p>
-	<ul>
-		<li>
-			<a href="/projects/my-website">My Website</a>
-		</li>
-		<li>
-			<a href="/projects/a-blog-i-built">A Blog I Built</a>
-		</li>
-		<li>
-			<a href="/projects/a-web-app-i-built">A Web App I Built</a>
-		</li>
-	</ul>
+  <nav>
+    <ul>
+      <li><a href="/Home">Home</a></li>
+      <li><a href="/About">About</a></li>
+      <li><a href="/Projects">Projects</a></li>
+      <li><a href="/Contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <section class="hero">
+    <h1>Gerald L.</h1>
+    <p>Tier 1 Incident Response Analyst</p>
+  </section>
+  
+  <section class="content">
+    <slot></slot>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Gerald L. All rights reserved.</p>
+  </footer>
 </main>
-<footer>&copy; 2023 Me</footer>
 
 <style>
+  main {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    padding: 2rem;
+    gap: 2rem;
+	}
 	body {
-		font-family: sans-serif;
-		margin: 0;
-	}
+  background: linear-gradient(to right, #2a2e35, #12181b);
+}
 
-	.container {
-		max-width: 960px;
-		margin: 0 auto;
-	}
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 10px;
+  }
 
-	.header {
-		background-color: #fff;
-		padding: 20px;
-		border-bottom: 1px solid #ccc;
-	}
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+  }
 
-	.main {
-		padding: 20px;
-	}
+  li {
+    font-size: 1.2rem;
+  }
 
-	.footer {
-		background-color: #fff;
-		padding: 20px;
-		border-top: 1px solid #ccc;
-	}
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+    border-radius: 10px;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+    opacity: 0.8;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+  }
 </style>
