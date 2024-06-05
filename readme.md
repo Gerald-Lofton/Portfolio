@@ -26,12 +26,4 @@ Please note that this project is still a work in progress. I'm actively working 
 - [ ] Integration with external APIs
 - [ ] Deployment to a live server
 
-## Contribution
-
-I appreciate any contributions to this project. If you have any ideas, suggestions, or bug reports, please feel free to open an issue or submit a pull request.
-
-## Contact
-
-If you have any questions or just want to connect, you can reach me at [your-email@example.com](mailto:your-email@example.com).
-
 Thank you for visiting my portfolio repository! I hope you enjoy exploring it as much as I enjoyed building it. 😊
